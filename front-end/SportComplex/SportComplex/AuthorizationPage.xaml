@@ -1,0 +1,22 @@
+﻿<Page x:Class="SportComplex.AuthorizationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SportComplex"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AuthorizationPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/АвторизацияФон.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Center" Height="339" Margin="0,95,0,0" VerticalAlignment="Top" Width="340" Source="/Авторизация.png"/>
+        <TextBox Name="EmailTextBox" TextWrapping="Wrap" Text="Email, phone" Margin="505,214,323,220" Foreground="#FF7A7575" Background="{x:Null}" FontSize="14" BorderThickness="0"/>
+        <PasswordBox Name="PasswordTextBox" HorizontalAlignment="Left" Margin="505,251,323,184" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderThickness="0" Foreground="#FF7A7575"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="693,296,0,0" VerticalAlignment="Top" Height="25" Width="85" Click="ButtonAuthorize_Click" Opacity="0"/>
+        <TextBlock Name="InvalidTextBlock" HorizontalAlignment="Center" Margin="-10,327,0,0" TextWrapping="Wrap" Text="Неверный логин или пароль" VerticalAlignment="Top" Width="266" FontSize="12" Foreground="Red" Visibility="Hidden"/>
+
+    </Grid>
+</Page>
