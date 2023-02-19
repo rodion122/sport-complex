@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logout.png" />
+    <None Remove="Авторизация.png" />
+    <None Remove="АвторизацияФон.png" />
+    <None Remove="ВыбранныеПомещения.png" />
+    <None Remove="ВыбранныйПомещения.png" />
+    <None Remove="ЗавершенныеПомещения.png" />
+    <None Remove="Подробнее.png" />
+    <None Remove="Помещения.png" />
+    <None Remove="ПомещенияМенеджер.png" />
+    <None Remove="ПомещенияНеНазначено.png" />
+    <None Remove="ПомещенияОтправить.png" />
+    <None Remove="ПомещенияОтправлено.png" />
+    <None Remove="ПомещенияПоУмолчанию.png" />
+    <None Remove="ПросмотрЗаявок.png" />
+    <None Remove="РазвернутыеПомещения.png" />
+    <None Remove="РазвернутыйПомещения.png" />
+    <None Remove="РасписаниеЗаявок.png" />
+    <None Remove="СоздатьЗаявку.png" />
+    <None Remove="Футбол.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="RestEase" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logout.png" />
+    <Resource Include="Авторизация.png" />
+    <Resource Include="АвторизацияФон.png" />
+    <Resource Include="ВыбранныеПомещения.png" />
+    <Resource Include="ВыбранныйПомещения.png" />
+    <Resource Include="ЗавершенныеПомещения.png" />
+    <Resource Include="Подробнее.png" />
+    <Resource Include="Помещения.png" />
+    <Resource Include="ПомещенияМенеджер.png" />
+    <Resource Include="ПомещенияНеНазначено.png" />
+    <Resource Include="ПомещенияОтправить.png" />
+    <Resource Include="ПомещенияОтправлено.png" />
+    <Resource Include="ПомещенияПоУмолчанию.png" />
+    <Resource Include="ПросмотрЗаявок.png" />
+    <Resource Include="РазвернутыеПомещения.png" />
+    <Resource Include="РазвернутыйПомещения.png" />
+    <Resource Include="РасписаниеЗаявок.png" />
+    <Resource Include="СоздатьЗаявку.png" />
+    <Resource Include="Футбол.png" />
+  </ItemGroup>
+
+</Project>
